@@ -14,3 +14,10 @@ map("v", "K", ":m '<-2<CR>gv=gv")
 -- save file
 map("n", "<C-s>", ":w<CR>")
 
+-- Copy to Clipboard
+map({"v", "n"}, "<leader>y", '"+y')
+map("n", "<leader>yy", '"+yy') -- Copy line
+
+-- Paste from Clipboard
+map({"v", "n"}, "<leader>p", '"+p')
+map({"v", "n"}, "<leader>P", '"+P')
