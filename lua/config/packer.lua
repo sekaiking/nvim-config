@@ -27,7 +27,7 @@ return require('packer').startup(function(use)
     )
 
     -- Syntax Highlighting
-    use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+    use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
     use('HiPhish/rainbow-delimiters.nvim')
     use('brenoprata10/nvim-highlight-colors')
 
@@ -52,8 +52,8 @@ return require('packer').startup(function(use)
     use {
         'saadparwaiz1/cmp_luasnip',
     }
-    use ("zbirenbaum/copilot.lua")
-    use ("zbirenbaum/copilot-cmp")
+    use("zbirenbaum/copilot.lua")
+    use("zbirenbaum/copilot-cmp")
 
     -- Lua Line
     use {
@@ -61,7 +61,7 @@ return require('packer').startup(function(use)
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
 
-    -- theme 
+    -- theme
     use('craftzdog/solarized-osaka.nvim')
 
     -- start
@@ -77,7 +77,7 @@ return require('packer').startup(function(use)
     }
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.4',
-        requires = { 'nvim-lua/plenary.nvim'}
+        requires = { 'nvim-lua/plenary.nvim' }
     }
 
     -- Undo tree
@@ -93,6 +93,6 @@ return require('packer').startup(function(use)
     -- Improve split windows
     use 'nvim-focus/focus.nvim'
 
+    -- Prettier
+    use 'stevearc/conform.nvim'
 end)
-
-
