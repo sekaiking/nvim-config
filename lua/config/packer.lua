@@ -83,6 +83,9 @@ return require('packer').startup(function(use)
     -- Undo tree
     use('mbbill/undotree')
 
+    -- Smooth scroll C+u C+D
+    use 'karb94/neoscroll.nvim'
+
 end)
 
 
