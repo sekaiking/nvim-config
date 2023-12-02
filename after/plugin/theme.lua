@@ -8,7 +8,7 @@ require("solarized-osaka").setup({
     }
 });
 
-vim.cmd[[colorscheme solarized-osaka]]
+vim.cmd [[colorscheme solarized-osaka]]
 
 -- Nvim Statusline
 require('lualine').setup {
@@ -20,7 +20,4 @@ require('lualine').setup {
 }
 
 -- highlight colors
-require('nvim-highlight-colors').setup({
-    render = 'background',
-})
-require('nvim-highlight-colors').turnOn()
+require('nvim-highlight-colors').setup({})

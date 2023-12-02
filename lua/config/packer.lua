@@ -98,4 +98,12 @@ return require('packer').startup(function(use)
 
     -- motions
     use 'folke/flash.nvim'
+
+    -- Lsp helper
+    use 'ray-x/lsp_signature.nvim'
+    use 'folke/trouble.nvim'
+    use 'RaafatTurki/corn.nvim'
+
+    -- icons
+    use 'nvim-tree/nvim-web-devicons'
 end)
