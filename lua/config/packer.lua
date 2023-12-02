@@ -86,6 +86,10 @@ return require('packer').startup(function(use)
     -- Smooth scroll C+u C+D
     use 'karb94/neoscroll.nvim'
 
+    -- Git stuff
+    use 'lewis6991/gitsigns.nvim'
+    use 'tpope/vim-fugitive'
+
 end)
 
 
