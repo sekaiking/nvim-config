@@ -90,6 +90,9 @@ return require('packer').startup(function(use)
     use 'lewis6991/gitsigns.nvim'
     use 'tpope/vim-fugitive'
 
+    -- Improve split windows
+    use 'nvim-focus/focus.nvim'
+
 end)
 
 
