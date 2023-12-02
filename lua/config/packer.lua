@@ -62,7 +62,7 @@ return require('packer').startup(function(use)
     }
 
     -- theme 
-    use('folke/tokyonight.nvim')
+    use('craftzdog/solarized-osaka.nvim')
 
     -- start
     use {
@@ -82,11 +82,6 @@ return require('packer').startup(function(use)
 
     -- Undo tree
     use('mbbill/undotree')
-
-
-    -- Skill
-    -- Suggests better ways to do stuff
-    use ("m4xshen/hardtime.nvim")
 
 end)
 

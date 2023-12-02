@@ -1,5 +1,4 @@
-require("tokyonight").setup({
-    style = "night", 
+require("solarized-osaka").setup({
     transparent = true,
     terminal_colors = true,
     styles = {
@@ -9,13 +8,13 @@ require("tokyonight").setup({
     }
 });
 
-vim.cmd[[colorscheme tokyonight]]
+vim.cmd[[colorscheme solarized-osaka]]
 
 -- Nvim Statusline
 require('lualine').setup {
     options = {
         -- ... your lualine config
-        theme = 'tokyonight'
+        theme = 'solarized-osaka'
         -- ... your lualine config
     }
 }
