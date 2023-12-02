@@ -95,4 +95,7 @@ return require('packer').startup(function(use)
 
     -- Prettier
     use 'stevearc/conform.nvim'
+
+    -- motions
+    use 'folke/flash.nvim'
 end)
